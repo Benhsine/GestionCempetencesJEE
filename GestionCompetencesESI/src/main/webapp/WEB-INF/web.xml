@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="https://jakarta.ee/xml/ns/jakartaee" xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_5_0.xsd" version="5.0">
+  <display-name>GestionCompetencesESI</display-name>
+  <servlet>
+    <description></description>
+    <display-name>UserConnexionServlet</display-name>
+    <servlet-name>UserConnexionServlet</servlet-name>
+    <servlet-class>school.esi.controleur.UserConnexionServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>UserConnexionServlet</servlet-name>
+    <url-pattern>/UserConnexionServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>UserModificationServlet</display-name>
+    <servlet-name>UserModificationServlet</servlet-name>
+    <servlet-class>school.esi.controleur.UserModificationServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>UserModificationServlet</servlet-name>
+    <url-pattern>/UserModificationServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>CompetencesServlet</display-name>
+    <servlet-name>CompetencesServlet</servlet-name>
+    <servlet-class>school.esi.controleur.CompetencesServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>CompetencesServlet</servlet-name>
+    <url-pattern>/CompetencesServlet</url-pattern>
+  </servlet-mapping>
+</web-app>
